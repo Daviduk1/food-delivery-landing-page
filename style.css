@@ -1,0 +1,159 @@
+.navbar {
+    padding: 0px 6.5rem;
+}
+
+.btn span {
+    background-color: white;
+}
+
+#btn {
+    background-color: #EA2125;
+    margin-right: 4rem;
+    
+}
+
+@media screen and (max-width:650px) {
+    .navbar{
+        padding: 0px 3rem;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+    #reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+.food {
+    background-color: #e5e5e5;
+}
+
+@media screen and (max-width:650px) {
+    #restaurant img {
+    
+        position: relative;
+        right: 1.85rem;
+    }
+    
+}
+
+.reg {
+    text-decoration: none;
+    color: #EA2125;
+}
+
+#restaurant img {
+    /* height: 450px; */
+    margin-left: 7rem;
+    overflow: hidden;
+}
+#easy {
+    background-color: #F9F9F9;
+}
+
+#easy h3 {
+    font-family: Mulish;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    line-height: 100%;
+    align-self: left;
+    vertical-align: top;
+}
+
+h3 .pocket {
+    color: orange;
+}
+
+h3 .rest {
+    color: #EA2125;
+}
+
+@media screen and (max-width:650px) {
+    #fluid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #components {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+ul li {
+    list-style: none;
+    line-height: 45px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:black ;
+
+}
+
+ul {
+    padding: 0px;
+
+}
+
+#vendor ul li a {
+    color: white;
+}
+
+#conditions ul li a{
+    color: white;
+
+}
+
+#conditions .icons ul li{
+    display: inline-block;
+    
+    text-align: center;  
+}
+
+
+@media screen and (max-width:650px) {
+    #vendor-near-me {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #get-help {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+}
+
+
+@media screen and (max-width:650px) {
+    #twitter {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+#twitter {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:650px) {
+    #position {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+
+
+.icons ul li  a{
+    padding: 0px 15px;
+}
